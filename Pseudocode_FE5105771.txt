@@ -1,0 +1,25 @@
+//Pseudocode Proses order makanan/minuman via online
+START
+
+OPEN Application
+SELECT Food Or Restaurant
+ADD Number of Food
+ADD Location
+PRESS Button "Checkout"
+PRESS Button "Edit Orders"
+IF (The order is correct)
+	Then do Payment
+	ELSE (The order is Wrong)
+	Back To SELECT Food Or Restaurant 
+END IF
+
+PROCEDURE Payment 
+IF Choose E-Money
+	Display "E-Money Option"
+	Else IF Choose Cash
+	Display "Do payment when the order arrives"
+End IF
+End PROCEDURE
+DISPLAY "Restaurant Make Order"
+
+END
